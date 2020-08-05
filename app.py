@@ -13,11 +13,11 @@ import urllib.parse
 
 class wifiidstorage:
     def __init__(self):
-        self.ma="ceea823af07a4dca9e1f43e88b98c401"                                  #mountbit-auth
-        self.ak="15ee82f543953d38316c34abed4bdc01fd1acf79101703312041c81d8d829f2d"   #api-Key
+        self.ma=""                                  #mountbit-auth 
+        self.ak=""   #api-Key
         self.url_createfile="https://api.obscloud.mobilecloud.co.id/api/2/files/create/"
         self.useragent="android-client (5.1.1; SM-N950N) v1.1.38"
-        self.deviceid = "1f594fb6610b0104"
+        self.deviceid = ""
 
     def create_file(self,file):
         url = self.url_createfile
@@ -155,7 +155,6 @@ def cloudmax():
     </form>
     </content>
     '''
-
 #----------------------End Main Program----------------------------
 if __name__ == "__main__":
   #flask run --host=0.0.0.0 --port=8080
